@@ -1,0 +1,105 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  background-color: rgb(20, 18, 18,0.8);
+  margin: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  /* me ne lagaya he flex wrap */
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh !important; 
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  /* border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s; */
+}
+button:hover {
+  /* border-color: #646cff; */
+}
+button:focus,
+button:focus-visible {
+  /* outline: 4px auto -webkit-focus-ring-color; */
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+    background-color: darkmagenta;
+  }
+ 
+}
+
+
+/* my style */
+
+.main{
+  /* background-color: rgba(13, 13, 13, 0.3); */
+  display: flex;
+  flex-wrap: nowrap;
+  border-radius: 20px;
+  margin: 20px 0px;
+  /* width:  !important; */
+  height: 500px;
+  -webkit-box-shadow: 0px 2px 17px 18px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 17px 18px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 17px 18px rgba(0,0,0,0.75);
+}
+.mybtn{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+font-size: 20px;
+  margin: 0px 10px;
+}
+/* .mybtn:hover{
+  border: 1px solid white !important;
+} */
+/* .mybtn:active{ */
+  /* border: 1px solid rgb(185, 29, 29) !important; */
+/* } */
+.mybtn:active{
+  -webkit-box-shadow: 2px 20px 17px 4px rgba(221, 216, 216, 0.75);
+-moz-box-shadow: 2px 20px 17px 4px rgba(188, 178, 178, 0.75);
+box-shadow: 2px 20px 17px 4px rgba(111, 109, 109, 0.75);
+  border: 1px solid rgb(255, 255, 255) !important;
+}
