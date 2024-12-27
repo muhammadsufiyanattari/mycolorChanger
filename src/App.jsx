@@ -35,7 +35,7 @@ function App() {
         return (
           <button
             onClick={() => {
-              console.log('ho raha he');
+              // console.log('ho raha he');
               
               document.querySelector(".main").style.background = obj.Bgcolor ;
             }}
